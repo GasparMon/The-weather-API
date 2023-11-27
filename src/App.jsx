@@ -171,6 +171,9 @@ function App() {
               {ubicacion.condicion === "Thunder storm" && (
                 <span class="material-symbols-outlined">thunderstorm</span>
               )}
+              {ubicacion.condicion === "Moderate or heavy rain with thunder" && (
+                <span class="material-symbols-outlined">thunderstorm</span>
+              )}
             </div>
             <div>
               <h1>
