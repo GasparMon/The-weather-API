@@ -1,0 +1,249 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#main-landing{
+  position: relative;
+  display: grid;
+  justify-content: center;
+  width: 800px;
+  height: 400px;
+  position: relative;
+  padding: 10px;
+  transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+#main-landing span{
+  font-size: 200px;
+  color: white;
+  text-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
+}
+#main-landing h1{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 60px;
+  font: weight 1900;
+  color: rgb(51, 51, 51);
+  text-shadow:15px 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+#title-div{
+  position: relative;
+  display: flex;
+  align-items:center;
+  justify-content:space-evenly;
+  color: white;
+  font-size: 40px;
+  width: 800px;
+  height: 125px;
+}
+#title-span{
+
+  font-size: 100px;
+  color: white;
+}
+
+#search-div{
+  position: relative;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  width: 800px;
+  height: 50px;
+}
+
+#search_input{
+  border-radius: 10px;
+  outline: 2px solid #ffffff;
+  border: 0;
+  background-color: #ffffff;
+  outline-offset: 3px;
+  padding: 10px 12.5px;
+  transition: all 0.2s ease;
+  width: 250px;
+  font-size: 17px;
+  margin: 0 15px 0 0;
+}
+
+#search_input:hover {
+  background-color: #fff;
+}
+
+#search_input:focus {
+  outline-offset: -6px;
+  outline: 2px solid #4772b6;
+  background-color: #ffffff;
+}
+
+.sbutton {
+  background-color: #f3f7fe;
+  color:#4772b6;
+  border: none;
+  border-radius: 8px;
+  width: 100px;
+  height: 45px;
+  transition: .3s;
+  cursor: pointer;
+  font-size: 17px;
+  margin: 0 35px 0 0 ;
+}
+
+.sbutton:hover {
+  background-color: #436eb0;
+  box-shadow: 0 0 0 5px #ffffff57;
+  color: #fff;
+}
+
+#card_div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 550px;
+}
+
+#card{
+  display: grid;
+  justify-content: center;
+  width: 800px;
+  height: 450px;
+  position: relative;
+  padding: 10px;
+  background: radial-gradient(500.94% 100.41% at 100.42% 106.41%, #4a78bf 0%, rgba(255, 255, 255, 0) 71.88%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #fffef7;
+  box-shadow: 0px 50px 30px rgba(0, 0, 0, 0.13), 0px 87px 52px rgba(0, 0, 0, 0.152), 0px 39px 39px rgba(0, 0, 0, 0.09), 0px 10px 21px rgba(0, 0, 0, 0.1), 0px 0px 100px rgba(0, 0, 0, 0.381);
+  border-radius: 23px;
+  transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+
+}
+
+#card-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 800px;
+  height: 70px;
+  color: black;
+  margin: 10px 0 0 0  ;
+}
+#card-title h1 {
+  margin: 0; 
+}
+#card-title h2 {
+  margin: 0; 
+}
+
+#card-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 800px;
+  height: 200px;
+  color: #000000;
+}
+
+#card-info div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+#card-info h1 {
+  margin: 0;
+  font-size: 50px;
+}
+#card-info h2 {
+  position: relative;
+  margin: 0;
+  font-size: 30px;
+  right: 20px;
+
+}
+
+.material-symbols-outlined {
+  font-size: 170px;
+  color: #000000;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+#card-stats{
+  display: flex;
+  align-items: center;
+  width: 800px;
+  height: 90px;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.363);
+  transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+#inner-stats{
+  display: flex;
+  align-items: center;
+  width: 800px;
+  height: 70px;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  background: #20376a;
+  border-radius: 17px;
+  width: 100%;
+  height: 100%;
+}
+
+
+#card-stats h3{
+  font-size: 30px;
+}
+
+#card-stats span{
+  font-size: 50px;
+  color: white;
+}
+
+#stats-humity{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 120px;
+  height: 70px;
+}
+
+#stats-v_viento{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 170px;
+  height: 70px;
+  
+}
+#stats-d_viento{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 150px;
+  height: 70px;
+ 
+}
+#stats-time{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 250px;
+  height: 70px;
+  text-align:center;
+}
+
+
+
