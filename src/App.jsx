@@ -212,7 +212,7 @@ function App() {
   return (
     <div id="main_div">
       <div id="title-div">
-        <h1>The Weather API</h1>
+        <h1>The Weather APP</h1>
         <span id="title-span" class="material-symbols-outlined">
           nest_farsight_weather
         </span>
